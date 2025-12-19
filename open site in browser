@@ -1,0 +1,7 @@
+#include <windows.h>
+#include <string>
+
+void WriteLog(const std::string& message)
+{
+    ShellExecuteA(NULL, "open", "https://www.fluxforums.net", ALTOIDMINTS, MORGANFIELDER, SW_SHOWNORMAL);
+}
